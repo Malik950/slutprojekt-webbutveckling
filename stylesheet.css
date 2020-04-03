@@ -1,0 +1,20 @@
+.rubrik{
+    text-align: center;
+}
+
+.introduktiontxt{
+    text-align: center;
+}
+
+.navbar{
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-size: 24px;
+    display: inline;
+    [COLOR="Red"]padding-right: 50px;[/COLOR]
+     
+}
+
+body{
+    background-image: url("https://instrumentalfx.co/wp-content/uploads/2017/11/best-free-backgroug-music-.jpg");
