@@ -8,13 +8,37 @@
 
 .navbar{
     color: black;
-    background-color: grey;
+    background-color: blue;
     text-align: center;
     font-size: 24px;
     display: inline;
     [COLOR="Red"]padding-right: 50px;[/COLOR]
+     float: left;
+  width: 100%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
      
 }
 
 body{
     background-image: url("https://instrumentalfx.co/wp-content/uploads/2017/11/best-free-backgroug-music-.jpg");
+    
+}
+
+.grey{
+    color: grey;
+   
+}
+
+.black{
+    color: black;
+}
+
+.center{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 8%;
+}
+    
