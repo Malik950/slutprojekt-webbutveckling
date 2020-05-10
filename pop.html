@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="sv">
     <head>
     <meta charset="utf-8">
@@ -13,9 +13,49 @@
   <a href="historia.html" class="navbar">historia</a>
   <a href="sida2HipHop.html" class="navbar">HipHop</a>
   <a href="pop.html" class="navbar">pop</a>
-</nav>  
+  <a href="rankning.html" class="navbar">Rankning</a>
+  <a href="Hjälp.html" class="navbar">Hjälp</a>
+</nav>
+        <!--Quiz med en fråga-->
+         <form>
+    <fieldset>
+        
+        <li>
+
+    <h3>Pop musik startades:</h3>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) 1980 </label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) 1960</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) 2000</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) 1940</label>
         
         
-        
+    </div>
+
+</li>
+        <!--får svaret och poppa upp när man klickar-->
+       <button onclick="myFunction()">svara!</button>
+
+<script>
+function myFunction() {
+  alert("1960 är det rätta svaret!");
+}
+  </script>
+              
+   </form>     
  </body>
     </html>
