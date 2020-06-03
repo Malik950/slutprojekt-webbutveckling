@@ -4,34 +4,48 @@
 
 .introduktiontxt{
     text-align: center;
+    margin-top: 30px;
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
 }
-/*Designen på navigationsmenyn*/
-.navbar{
-    color: black;
-    background-color: blue;
+
+/*Rubrikens centrering på historiasidan*/
+.Historia {
     text-align: center;
-    font-size: 24px;
-    display: inline;
-    [COLOR="Red"]padding-right: 50px;[/COLOR]
-     float: left;
-  width: 100%;
-  height: 300px;
-  background: #ccc;
-  padding: 20px;
-  overflow: hidden;
 }
-/*när pekaren är över länken*/
-.navbar:hover {
-      background-color: #3e8e41;
-      color: white;    
+
+.Historiatxt {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
 }
+
 /*bakgrundsbild*/
 body{
     background-image: url("https://instrumentalfx.co/wp-content/uploads/2017/11/best-free-backgroug-music-.jpg");
     
 }
 
-.grey{
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.grey {
     color: grey;
    
 }
@@ -40,13 +54,20 @@ body{
     color: black;
 }
 /*positionering av tabellen*/
-.center{
+.rankningtabell {
     text-align: center;
     margin: 0px auto;
     margin-top: 8%;
+    width: 400px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #95B995;
+    border-radius: 15px;
 }
 
-form{
+
+form {
     text-align: center;
     margin: 0px auto ;
     padding: 75px;
@@ -58,6 +79,7 @@ form{
   padding: 50px;
 }
 
+/*videoruta*/
 iframe {
     width: 300px;
     height: 300px;
@@ -65,6 +87,7 @@ iframe {
     background-color: #777;
 }
 
+/*tabell design*/
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -79,6 +102,41 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+.video {
+    text-align: center;
+}
+
+/*storlek på texten på footer*/
+.footertxt {
+    font-size: 2rem;
+}
+
+/*positionering*/
+.startpage > header, .subpage > header {
+    text-align: center;
+}
+
+.subpage > nav {
+    float: left;
+    width: 20%;
+    display: inline; /* IE 6 buggfix */
+}
+
+div[role="main"] {
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+    width: 120px;
+}
+
+input[type="submit"] {
+    margin-left: 132px;
 }
 
 
